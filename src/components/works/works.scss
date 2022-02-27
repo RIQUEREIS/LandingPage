@@ -1,0 +1,96 @@
+@import "../../global.scss";
+
+.greenPart{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  background-image: url("../../assets/waveGreenBig.svg");
+  
+  align-items: center;
+  text-align: center;
+  position: relative;
+  
+  
+  .greenHolder{
+    background-color: white;
+    width: 60%;
+    height: 80%;
+    margin-left: 18%;
+
+    .greenH1Classname{
+      font-size: 20px;
+      span{
+        color: #ffffff;
+        background-color: #0E699C;
+      }
+    }
+    .holder{
+      text-align: center;
+      align-items: center;
+      align-content: center;
+    
+      height: 100%;
+
+      :after{
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .column1{
+        float: left;
+        width: 33.33%;
+        height: 100%;
+
+        .card{
+          height: 33%;
+          align-items: center;
+ 
+          display: flex;
+          a{
+            font-family: 'Sora', sans-serif;
+            margin-left: 2%;
+            margin-right: 2%;
+            color: black;
+            border-radius: 25px;
+          }
+        }
+      }
+      .column2{
+          float: left;
+        width: 33.33%;
+        height: 100%;
+        background-color: black;
+        
+        img{
+          margin-top: 35%;
+          max-height:100%; max-width:100%;
+        }
+      }
+      .column3{
+        float: left;
+        width: 33.33%;
+        height: 100%;
+        .card{
+          height: 33%;
+          align-items: center;
+          display: flex;
+          
+
+          a{
+            font-family: 'Sora', sans-serif;
+            color: black;
+            border-radius: 25px;
+            margin-left: 2%;
+            margin-right: 2%;
+          }
+        }
+      }
+    }
+  }
+  .bottom{
+    width: 60%;
+    height: 20%;
+    margin-left: 18%;
+    background-color: rgb(160, 160, 160);
+  }
+}
