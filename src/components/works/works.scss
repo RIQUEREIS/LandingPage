@@ -10,18 +10,38 @@
   text-align: center;
   position: relative;
   
+  .float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:5%;
+    right:5%;
+    background-color:#268035;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+     font-size:30px;
+    box-shadow: 2px 2px 3px rgb(5, 5, 5);
+    z-index:100;
+}
+  
+  hr{
+    margin-left: 18%;
+    width: 60%;
+    
+  }
   
   .greenHolder{
     background-color: white;
     width: 60%;
-    height: 80%;
+    height: 85%;
     margin-left: 18%;
 
     .greenH1Classname{
       font-size: 20px;
       span{
         color: #ffffff;
-        background-color: #0E699C;
+        background-color: #000000;
       }
     }
     .holder{
@@ -40,7 +60,6 @@
         float: left;
         width: 33.33%;
         height: 100%;
-
         .card{
           height: 33%;
           align-items: center;
@@ -50,7 +69,7 @@
             font-family: 'Sora', sans-serif;
             margin-left: 2%;
             margin-right: 2%;
-            color: black;
+            color: rgb(0, 0, 0);
             border-radius: 25px;
           }
         }
@@ -59,17 +78,22 @@
           float: left;
         width: 33.33%;
         height: 100%;
-        background-color: black;
+        display: grid;
+     
+
         
         img{
-          margin-top: 35%;
+          margin-top: 0%;
           max-height:100%; max-width:100%;
         }
       }
       .column3{
+       
         float: left;
         width: 33.33%;
         height: 100%;
+        border: white;
+
         .card{
           height: 33%;
           align-items: center;
@@ -83,14 +107,44 @@
             margin-left: 2%;
             margin-right: 2%;
           }
+          
         }
       }
+      
     }
+
   }
   .bottom{
     width: 60%;
-    height: 20%;
-    margin-left: 18%;
-    background-color: rgb(160, 160, 160);
+    height: 15%;
+    margin-left: 17%;
+    background-color: $mainColor;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+    a{
+      float: left;
+      width: 15%;
+      margin: 20px;
+      padding: 15px 20px;
+      border-radius: 9999px;
+      background-color: rgb(255, 255, 255);
+      font-weight: 300;
+      box-shadow: 3px 3px black;
+      font-family: "Sora", sans-serif;
+      font-size: 14px;
+      p{
+        font-weight: bold;
+        font-family: "Sora", sans-serif;
+
+        img{
+          width: 15px;
+          height: 15px;
+        }
+      }
+    }
   }
 }

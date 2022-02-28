@@ -72,6 +72,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    
 
     .afiliate{
       margin-top: 10%;
@@ -81,6 +82,8 @@
       border-radius: 9999px;
       font-family: 'Sora',sans-serif;
       box-shadow: 3px 3px black;
+      color: black;
+      text-decoration: none;
     }
     .icon{
       
@@ -89,6 +92,7 @@
         color: rgb(255, 255, 255);
         animation:arrowBlink 2s infinite;
         
+    
 
         @include mobile{font-size: 60px;
         padding-left: 0;}
