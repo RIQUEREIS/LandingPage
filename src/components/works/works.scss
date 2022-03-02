@@ -36,12 +36,33 @@
     width: 60%;
     height: 85%;
     margin-left: 18%;
+    @include notebook{
+      width: 70%;
+      margin-left: 12%;
+    }
+    @include notebook{
+      width: 80%;
+      margin-left: 10%;
+      
+    }
+    @include mobile{
+      width: 100%;
+      margin: 0;
+      
+    }
 
     .greenH1Classname{
       font-size: 20px;
       span{
         color: #ffffff;
         background-color: #000000;
+      }
+      @include tablet{
+        font-size: 17px;
+      }
+      @include mobile{
+        font-size: 12px;
+        
       }
     }
     .holder{
@@ -50,7 +71,10 @@
       align-content: center;
     
       height: 100%;
-
+      @include mobile{
+        
+      }
+ 
       :after{
         content: "";
         display: table;
@@ -60,17 +84,35 @@
         float: left;
         width: 33.33%;
         height: 100%;
+
+        @include mobile{
+          width: 50%;
+          height: 70%;
+          
+        }
         .card{
           height: 33%;
           align-items: center;
  
           display: flex;
+          @include mobile{
+            display: block;
+            line-height: 15px;            
+          }
           a{
             font-family: 'Sora', sans-serif;
             margin-left: 2%;
             margin-right: 2%;
             color: rgb(0, 0, 0);
             border-radius: 25px;
+
+            @include notebook{
+              font-size: 13px;
+            }
+            @include mobile{
+              font-size: 11px;
+              
+            }
           }
         }
       }
@@ -79,7 +121,12 @@
         width: 33.33%;
         height: 100%;
         display: grid;
-     
+        @include mobile{
+          width: 0%;
+          height: 30%;
+          
+          
+        }
 
         
         img{
@@ -93,12 +140,18 @@
         width: 33.33%;
         height: 100%;
         border: white;
-
+        @include mobile{
+          float:right;
+          width: 50%;
+          height: 70%;
+          
+          
+        }
         .card{
           height: 33%;
           align-items: center;
           display: flex;
-          
+
 
           a{
             font-family: 'Sora', sans-serif;
@@ -106,6 +159,13 @@
             border-radius: 25px;
             margin-left: 2%;
             margin-right: 2%;
+            @include notebook{
+              font-size: 13px;
+            }
+            @include mobile{
+              font-size: 11px;
+              
+            }
           }
           
         }
@@ -124,6 +184,12 @@
     justify-content: center;
     align-content: center;
     text-align: center;
+    @include notebook{
+      width: 100%;
+      margin: 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
 
     a{
       float: left;
@@ -136,6 +202,17 @@
       box-shadow: 3px 3px black;
       font-family: "Sora", sans-serif;
       font-size: 14px;
+      @include notebook{
+        float: none;
+      
+        
+      }
+      @include mobile{
+        width: 80%;
+        margin: 5px;
+        font-size: 10px;
+        padding: 5px 5px;
+      }
       p{
         font-weight: bold;
         font-family: "Sora", sans-serif;
