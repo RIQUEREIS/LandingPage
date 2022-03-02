@@ -4,7 +4,10 @@ import product from "../../assets/product.jpeg"
 import React, { useState } from 'react';
 import { Player } from 'video-react';
 import Image from '../../assets/black.png'
-import Video from '../../assets/introVideo.mp4';
+import ResponsiveVideo from '../../assets/introVideo.mp4';
+import { ReactVideo } from "reactjs-media";
+import { YoutubePlayer } from "reactjs-media";
+
 
 export default function Intro() {
 
@@ -19,26 +22,14 @@ export default function Intro() {
                 </h1>
                 <div className="mainContent">
                     <div className="left">
-                        
-                        <div className="video">
-                        <Player className="videoPlayer"
-                            playsInline
-                            poster={Image}
-                            src={Video}
-                            fluid={false}
-                            width={700}
-                            height={500}
-                            autoPlay={true}
-                            muted={false}
-                            aspectRatio ={"auto"}
-                        />
-                        </div>
+                    <div class="videoWrapper">
+                    <iframe width="560" height="349" src="https://www.youtube.com/embed/olY6aWVv9xY" frameborder="0" allowfullscreen></iframe>
+                    </div>
                     <div className="iconHolder">
                     <a href="#productdiv">
                     <ExpandMore className="icon"/>
                     </a>
                     </div>
-
                     </div>
                     <div className="right">
                     <h3>Sobre mim</h3>
@@ -50,12 +41,8 @@ export default function Intro() {
                             <a  href="//www.hotmart.com/product/en/ebookalimentacaovsdepressao/Y67146850A">Veja mais aqui</a>
                             <img src="https://cursodespertemilionario.com/wp-content/uploads/2021/06/Design-sem-nome.png"></img>
                         </div>
-                                    
-
                     </div>
-
                 </div>
-
             </div>
         </div>
     )

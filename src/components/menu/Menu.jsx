@@ -10,6 +10,9 @@ export default function Menu({menuOpen,setMenuOpen}) {
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#productdiv">Produto</a>
                 </li>
+                <li onClick={()=>setMenuOpen(false)}>
+                    <a href="#greenParth1">Vantagens</a>
+                </li>
             </ul>
         </div>
     )

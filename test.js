@@ -1,0 +1,315 @@
+let workScheduleNutricion = [
+    {
+        "num":1,
+        "name":"Monday",
+        "portugueseName":"Segunda",
+        "worktime":[
+            {
+                "start":"14:00",
+                "end":"16:00"
+            }
+        ]
+    },
+    {
+        "num":2,
+        "name":"Tuesday",
+        "portugueseName":"Terca",
+        "worktime":[
+            {
+                "start":"14:00",
+                "end":"16:00"
+            }
+        ]
+    },
+    {
+        "num":3,
+        "name":"Wednesday",
+        "portugueseName":"Quarta",
+        "worktime":[
+            {
+                "start":"14:00",
+                "end":"16:00"
+            }
+        ]
+    },
+    {
+        "num":4,
+        "name":"Thursday",
+        "portugueseName":"Quinta",
+        "worktime":[
+            {
+                "start":"14:00",
+                "end":"16:00"
+            }
+        ]
+    },
+    {
+        "num":5,
+        "name":"Friday",
+        "portugueseName":"Sexta",
+        "worktime":[
+            {
+                "start":"14:00",
+                "end":"16:00"
+            }
+        ]
+    },
+]
+let workSchedulePharmacy = [
+    {
+        "num":1,
+        "name":"Monday",
+        "portugueseName":"Segunda",
+        "worktime":[
+            {
+                "start":"09:00",
+                "end":"11:00"
+            }
+        ]
+    },
+    {
+        "num":2,
+        "name":"Tuesday",
+        "portugueseName":"Terca",
+        "worktime":[
+            {
+                "start":"09:00",
+                "end":"11:00"
+            }
+        ]
+    },
+    {
+        "num":3,
+        "name":"Wednesday",
+        "portugueseName":"Quarta",
+        "worktime":[
+            {
+                "start":"09:00",
+                "end":"11:00"
+            }
+        ]
+    },
+    {
+        "num":4,
+        "name":"Thursday",
+        "portugueseName":"Quinta",
+        "worktime":[
+            {
+                "start":"09:00",
+                "end":"11:00"
+            }
+        ]
+    },
+    {
+        "num":5,
+        "name":"Friday",
+        "portugueseName":"Sexta",
+        "worktime":[
+            {
+                "start":"09:00",
+                "end":"11:00"
+            }
+        ]
+    },
+]
+let workScheduleBiomedicine = [
+    {
+        "num":1,
+        "name":"Monday",
+        "portugueseName":"Segunda",
+        "worktime":[
+            {
+                "start":"15:00",
+                "end":"17:00"
+            }
+        ]
+    },
+    {
+        "num":2,
+        "name":"Tuesday",
+        "portugueseName":"Terca",
+        "worktime":[
+            {
+                "start":"15:00",
+                "end":"17:00"
+            }
+        ]
+    },
+    {
+        "num":3,
+        "name":"Wednesday",
+        "portugueseName":"Quarta",
+        "worktime":[
+            {
+                "start":"15:00",
+                "end":"17:00"
+            }
+        ]
+    },
+    {
+        "num":4,
+        "name":"Thursday",
+        "portugueseName":"Quinta",
+        "worktime":[
+            {
+                "start":"15:00",
+                "end":"17:00"
+            }
+        ]
+    },
+    {
+        "num":5,
+        "name":"Friday",
+        "portugueseName":"Sexta",
+        "worktime":[
+            {
+                "start":"15:00",
+                "end":"17:00"
+            }
+        ]
+    },
+]
+let workSchedulePhysiotherapy = [
+    {
+        "num":1,
+        "name":"Monday",
+        "portugueseName":"Segunda",
+        "worktime":[
+            {
+                "start":"15:00",
+                "end":"16:30"
+            }
+        ]
+    },
+    {
+        "num":2,
+        "name":"Tuesday",
+        "portugueseName":"Terca",
+        "worktime":[
+            {
+                "start":"08:00",
+                "end":"10:00"
+            }
+        ]
+    },
+    {
+        "num":3,
+        "name":"Wednesday",
+        "portugueseName":"Quarta",
+        "worktime":[
+            {
+                "start":"14:00",
+                "end":"17:00"
+            }
+        ]
+    },
+    {
+        "num":4,
+        "name":"Thursday",
+        "portugueseName":"Quinta",
+        "worktime":[
+            {
+                "start":"09:00",
+                "end":"10:00"
+            }
+        ]
+    },
+    {
+        "num":5,
+        "name":"Friday",
+        "portugueseName":"Sexta",
+        "worktime":[
+            {
+                "start":"15:00",
+                "end":"17:00"
+            }
+        ]
+    },
+]
+
+let workScheduleOccupationalTherapy = [
+    {
+        "num":1,
+        "name":"Monday",
+        "portugueseName":"Segunda",
+        "worktime":[
+            {
+                "start":"13:00",
+                "end":"15:00"
+            }
+        ]
+    },
+    {
+        "num":2,
+        "name":"Tuesday",
+        "portugueseName":"Terca",
+        "worktime":[
+            {
+                "start":"18:00",
+                "end":"21:45"
+            }
+        ]
+    },
+    {
+        "num":3,
+        "name":"Wednesday",
+        "portugueseName":"Quarta",
+        "worktime":[
+            {
+                "start":"13:00",
+                "end":"14:00"
+            }
+        ]
+    },
+    {
+        "num":4,
+        "name":"Thursday",
+        "portugueseName":"Quinta",
+        "worktime":[
+            {
+                "start":"08:00",
+                "end":"09:00"
+            }
+        ]
+    },
+    {
+        "num":5,
+        "name":"Friday",
+        "portugueseName":"Sexta",
+        "worktime":[
+            {
+                "start":"13:00",
+                "end":"15:00"
+            }
+        ]
+    },
+]
+
+
+
+
+function run(value){
+    switch(value){
+        case 3: 
+            console.log(JSON.stringify(workSchedulePhysiotherapy))
+            return workSchedulePhysiotherapy
+        case 4:
+            console.log(JSON.stringify(workScheduleNutricion))
+            return workScheduleNutricion
+        case 5: 
+            console.log(JSON.stringify(workSchedulePharmacy))
+            return workSchedulePharmacy
+        case 7:
+            console.log(JSON.stringify(workScheduleOccupationalTherapy))
+            return workScheduleOccupationalTherapy
+        case 8: 
+            console.log(JSON.stringify(workScheduleBiomedicine))
+            return workScheduleBiomedicine
+
+        default:
+            return "nenhum"
+        }
+}
+
+
+run(2)

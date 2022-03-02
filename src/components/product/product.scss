@@ -13,9 +13,22 @@
   
   .productHolder{
     background-color: white;
-    width: 60%;
+    width: 80%;
     height: 80%;
-    margin-left: 18%;
+    margin-left: 10%;
+
+    @include tablet{
+      height: 85%;
+    }
+    
+    @include mobile{
+      width: 100%;
+      margin-left: 2%;
+      margin-right: 2%;
+    }
+    @include mini{
+      height: 90%;
+    }
 
     .holder{
       text-align: center;
@@ -23,14 +36,27 @@
       align-content: center;
 
       height: 90%;
+      
+      
 
       .right{
         height: 100%;
-        width: 45%;
+        width: 35%;
         float: right;
         position:relative;
         margin-right: 5%;
-        
+        @include normalSize{
+          width: 30%;
+        }
+        @include mobile{
+          height: 70%;
+          width: 95%;
+
+        }
+        @include mini{
+          height: 60%;
+        }
+
         p{
           font-size: 20px;
           position:absolute;
@@ -38,30 +64,60 @@
           left: 0;
           font-family: 'Sora', sans-serif;
           line-height: 50px;
+
+          @include notebook{
+            line-height: 38px;
+            font-size: 16px;
+          }
+          @include tablet{
+              font-size: 15px;
+              line-height: 35px;
+          }
+          @include mobile{
+            line-height: 32px;
+          }
+          @include mini{
+            font-size: 11px;
+            line-height: 25px;
+          }
+
         }
       }
       .left{
         height: 100%;
-        width: 50%;
+        width: 60%;
         float: left;
         position: relative;
-
+        @include normalSize{
+          width: 65%;
+        }
+        @include mobile{
+          height: 30%;
+          width: 100%;
+          margin: 0;
+        }
+        @include mini{
+          height: 40%;
+        }
         img{
-          position:absolute;
-          top:0;
-          left:-10%;
-         
-          margin-left:-25px;
-          object-fit: cover;
+          float: none;
+          max-width: 100%;
+          max-height: 100%;
         }
       }      
     }
   }
   .productH1classname{
-    margin-top: 5%;
+    margin-top: 1%;
+    @include mini{
+      margin-top: 0;
+    }
 
     h1{
       font-family: 'Sora', sans-serif;
+      @include mini{
+        font-size: 22px;
+      }
     }
   }
   .icons{
@@ -72,8 +128,13 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    @include tablet{
+      height: 15%;
+    }
+    @include mini{
+      height: 10%;
+    }
     
-
     .afiliate{
       margin-top: 10%;
       margin-right: 5%;
@@ -84,6 +145,31 @@
       box-shadow: 3px 3px black;
       color: black;
       text-decoration: none;
+      cursor: pointer;
+      
+      @include notebook{
+        padding: 10px 20px;
+        margin-top: 5%;
+      }
+      @include tablet{
+        padding: 8px 15px;
+        margin-top: 2%;
+      }
+      @include mobile{
+        margin-right: 0;
+      }
+      @include mini{
+        margin-top: 0;
+        font-size: 12px;
+      }
+      img{
+        width: 25px;
+        height: 25px;
+        @include mini{
+          width: 12px;
+          height: 12px;
+        }
+      }
     }
     .icon{
       
@@ -92,7 +178,12 @@
         color: rgb(255, 255, 255);
         animation:arrowBlink 2s infinite;
         
-    
+        @include tablet{
+         font-size: 50px;
+        }
+        @include mini{
+          display: none;
+        }
 
         @include mobile{font-size: 60px;
         padding-left: 0;}

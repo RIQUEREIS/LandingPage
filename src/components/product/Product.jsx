@@ -1,9 +1,9 @@
 import "./product.scss";
 import productImage from "../../assets/product.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import {ExpandMore} from "@material-ui/icons"
-import {Click} from "../../assets/click.png"
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import {ExpandMore} from "@material-ui/icons";
+import Click from "../../assets/click.png";
 
 
 export default function Product() {
@@ -31,9 +31,9 @@ export default function Product() {
                 </div>
             </div>
             <div className="icons">
-                <a className="afiliate" href="https://api.whatsapp.com/send?phone=554799604498&text=Olá%21%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20saber%20mais%20à%20respeito%20do%20sistema%20de%20afiliados%20.">Gostou da proposta? Torne-se um afiliado</a>
-                    <img src={Click}></img>
-                <a href="#titleh1">
+                <a className="afiliate" href="https://api.whatsapp.com/send?phone=554799604498&text=Olá%21%20Vim%20pelo%20seu%20site%20e%20gostaria%20de%20saber%20mais%20à%20respeito%20do%20sistema%20de%20afiliados%20.">Gostou da proposta? Torne-se um afiliado<img src={Click}></img></a>
+                    
+                <a href="#greenParth1">
                     <ExpandMore className="icon"/>
                 </a>
             </div>

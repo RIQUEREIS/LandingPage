@@ -22,13 +22,13 @@ export default function Works() {
           <div className="holder">
               <div className="column1">
                 <div className="card">
-                <a><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
+                <a><h2>Entender sobre depressão.</h2> O livro traz uma explicação sucinta no entanto bastante completa a respeito da depressão, explicando possíveis causas e soluções da mesma</a>
                 </div>
                 <div className="card">
-                <a><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
+                <a><h2>Relação entre alimentos e hormônios</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
                 </div>
                 <div className="card">
-                <a><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
+                <a><h2>Conhecimentos que farão você reconsiderar decisões cotidianas</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
                 </div>
               </div>
               <div className="column2">
@@ -37,13 +37,13 @@ export default function Works() {
               </div>
               <div className="column3">
               <div className="card">
-                  <a><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
+                  <a><h2>Aprender sobre alimentação.</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
                 </div>
                 <div className="card">
-                <a><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
+                <a><h2>O produto sempre com você.</h2> Uma vez comprado, o produto será sempre seu e você poderá acessá-lo de qualquer dispositivo que seja compatível com a leitura do mesmo. Isto é, sempre que surgir uma dúvida referente a alimentação você vai poder consultá-lo.</a>
                 </div>
                 <div className="card">
-                <a><h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2> Adipisci ea nulla explicabo officia quasi hic illum earum mollitia, tempore, veniam eaque. Cum incidunt asperiores beatae non ex error, deleniti perspiciatis.</a>
+                <a><h2>Vantagens de uma boa alimentação.</h2> Embora o foco do e-book seja a alimentação versus depressão, com uma alimentação saudável outras faces de sua vida irão melhorar e alguns exemplos são: Memória, Sono, Humor, Ossos e Dentes, entre outros.</a>
                 </div>
               </div>
           </div>
