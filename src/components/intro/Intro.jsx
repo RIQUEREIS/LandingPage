@@ -1,12 +1,7 @@
 import "./intro.scss";
 import {ExpandMore} from "@material-ui/icons"
-import product from "../../assets/product.jpeg"
 import React, { useState } from 'react';
-import { Player } from 'video-react';
-import Image from '../../assets/black.png'
-import ResponsiveVideo from '../../assets/introVideo.mp4';
-import { ReactVideo } from "reactjs-media";
-import { YoutubePlayer } from "reactjs-media";
+
 
 
 export default function Intro() {

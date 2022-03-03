@@ -1,14 +1,10 @@
 import "./works.scss"
-import {useState} from 'react'
-import ReactDOM from 'react-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Placeholder from "../../assets/placeholder.png";
 import Star from "../../assets/star.png";
 import Secure from "../../assets/Secure.png";
 import Email from "../../assets/email.png";
 import Check from "../../assets/check.png";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { WhatsApp } from "@material-ui/icons";
+
 
 
 export default function Works() {
