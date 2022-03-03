@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/LandingPage/static/css/main.087caa9c.chunk.css",
+    "main.js": "/LandingPage/static/js/main.1ba473f8.chunk.js",
+    "main.js.map": "/LandingPage/static/js/main.1ba473f8.chunk.js.map",
+    "runtime-main.js": "/LandingPage/static/js/runtime-main.5f11038d.js",
+    "runtime-main.js.map": "/LandingPage/static/js/runtime-main.5f11038d.js.map",
+    "static/js/2.198be0cf.chunk.js": "/LandingPage/static/js/2.198be0cf.chunk.js",
+    "static/js/2.198be0cf.chunk.js.map": "/LandingPage/static/js/2.198be0cf.chunk.js.map",
+    "index.html": "/LandingPage/index.html",
+    "static/css/main.087caa9c.chunk.css.map": "/LandingPage/static/css/main.087caa9c.chunk.css.map",
+    "static/js/2.198be0cf.chunk.js.LICENSE.txt": "/LandingPage/static/js/2.198be0cf.chunk.js.LICENSE.txt",
+    "static/media/product.scss": "/LandingPage/static/media/waveGreen.1c9ec8c2.svg",
+    "static/media/introVideo.8a4089e2.mp4": "/LandingPage/static/media/introVideo.8a4089e2.mp4",
+    "static/media/intro.scss": "/LandingPage/static/media/orangeWave.698058b9.svg",
+    "static/media/placeholder.4cbd11c1.png": "/LandingPage/static/media/placeholder.4cbd11c1.png",
+    "static/media/product.94c49993.jpeg": "/LandingPage/static/media/product.94c49993.jpeg",
+    "static/media/works.scss": "/LandingPage/static/media/waveGreenBig.6371e202.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f11038d.js",
+    "static/js/2.198be0cf.chunk.js",
+    "static/css/main.087caa9c.chunk.css",
+    "static/js/main.1ba473f8.chunk.js"
+  ]
+}
