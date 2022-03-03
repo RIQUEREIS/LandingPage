@@ -53,6 +53,7 @@
           width: 95%;
 
         }
+
         @include mini{
           height: 60%;
         }
@@ -76,9 +77,12 @@
           @include mobile{
             line-height: 32px;
           }
+          @include minMobile{
+            line-height: 25px;
+          }
           @include mini{
             font-size: 11px;
-            line-height: 25px;
+            
           }
 
         }
@@ -95,6 +99,9 @@
           height: 30%;
           width: 100%;
           margin: 0;
+        }
+        @include minMobile{
+          height: 35%;
         }
         @include mini{
           height: 40%;
