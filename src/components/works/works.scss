@@ -85,9 +85,7 @@
         @include mini{
           height: 100%;
         }
-        @include minMobile{
-          height: 100%;
-        }
+
         .card{
           height: 33%;
           align-items: center;
@@ -96,10 +94,7 @@
             height: auto;
             margin-top: 20%;
           }
-          @include minMobile{
-            height: auto;
-            margin-top: 20%;
-          }
+  
           @include mobile{
 
             line-height: 18px;            
@@ -122,10 +117,7 @@
               line-height: 11px;
               font-size: 11px;
             }
-            @include minMobile{
-              font-size: 13px;
-              line-height: 13px;
-            }
+
             
           }
         }
@@ -159,9 +151,7 @@
         @include mini{
           height: 100%;
         }
-        @include minMobile{
-          height: 100%;
-        }
+
         .card{
           height: 33.3%;
           align-items: center;
@@ -174,10 +164,7 @@
             margin-top: 30%;
 
           }
-          @include minMobile{
-            height: auto;
-            margin-top: 20%;
-          }
+   
 
           a{
             font-family: 'Sora', sans-serif;
@@ -197,10 +184,7 @@
               line-height: 11px;
               font-size: 11px;
             }
-            @include minMobile{
-              font-size: 13px;
-              line-height: 13px;
-            }
+
           }
           
         }
@@ -225,9 +209,7 @@
         @include mini{
           display: none;
         }
-        @include minMobile{
-          display: none;
-        }
+
       }
       
     }
@@ -251,10 +233,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
     }
-    @include minMobile{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-    }
+
     a{
       float: left;
       width: 15%;

@@ -43,11 +43,9 @@
         height: 100%;
         width: 35%;
         float: right;
-        position:relative;
+        display: flex;
         margin-right: 5%;
-        @include normalSize{
-          width: 30%;
-        }
+        
         @include mobile{
           height: 70%;
           width: 95%;
@@ -59,12 +57,12 @@
         }
 
         p{
+          display: flex;
+          white-space:pre-line;
           font-size: 20px;
-          position:absolute;
-          top:5%;
-          left: 0;
           font-family: 'Sora', sans-serif;
-          line-height: 50px;
+          line-height: 45px;
+          margin-bottom: 10px;
 
           @include notebook{
             line-height: 38px;
@@ -77,9 +75,7 @@
           @include mobile{
             line-height: 32px;
           }
-          @include minMobile{
-            line-height: 25px;
-          }
+ 
           @include mini{
             font-size: 11px;
             
@@ -92,17 +88,13 @@
         width: 60%;
         float: left;
         position: relative;
-        @include normalSize{
-          width: 65%;
-        }
+    
         @include mobile{
           height: 30%;
           width: 100%;
           margin: 0;
         }
-        @include minMobile{
-          height: 35%;
-        }
+
         @include mini{
           height: 40%;
         }
@@ -110,6 +102,8 @@
           float: none;
           max-width: 100%;
           max-height: 100%;
+          min-width: 50%;
+          min-height: auto;
         }
       }      
     }

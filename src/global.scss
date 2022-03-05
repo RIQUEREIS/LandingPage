@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 $mainColor:#1ea50d;
 
@@ -9,7 +9,7 @@ $notebook:1600px;
 $mini:395px;
 $normalSize:1930px;
 $testSmartphone:800px;
-
+$thousendPx:1000px;
 @mixin mobile{
     @media (max-width: #{$width}){
         @content;
@@ -42,6 +42,11 @@ $testSmartphone:800px;
 }
 @mixin normalSize{
     @media(max-width:#{$normalSize}){
+        @content;
+    }
+}
+@mixin thousendPx{
+    @media(max-width:#{$thousendPx}){
         @content;
     }
 }
