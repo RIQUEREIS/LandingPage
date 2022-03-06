@@ -43,7 +43,7 @@ export default function Works() {
 
       <div className="bottom">
         <ul>
-          <li><p><img src={Star}></img> Privacidade</p>Sua informacao 100% segura</li>
+          <li><p><img src={Star}></img> A Sua Privacidade</p>Sua informacao 100% segura</li>
           <li><p><img src={Secure}></img> Compra segura</p>Ambiente seguro e autenticado</li>
           <li><p><img src={Email}></img> Entregue via E-mail</p>Produto entregue por e-mail</li>
           <li><p><img src={Check}></img> Conteudo aprovado</p>100% revisado e aprovado</li>
