@@ -44,12 +44,15 @@
       }
       
       .right{
-
+        justify-content: center;
+        text-align: center;
         p{
           font-family: 'Rubik', sans-serif;
           font-size: 1.5em;
           font-weight:600;
           line-height: 40px;
+          overflow-wrap: break-word;  
+                 
 
           span{
             font-size: 1.5em;
