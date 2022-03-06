@@ -14,7 +14,8 @@ export default function Intro() {
         <div className="intro" id="intro">
             <div class="content">
                 <h1>
-                   E-book
+                   <span className="bigSpan">CUIDE-SE:</span>O primeiro passo para a <span>liberdade</span> é o <span>conhecimento</span>.<br/>
+                    Portanto, aprenda mais sobre a relacao entre o DEPRESSAO e ALIMENTACAO
                 </h1>
                 <div className="mainContent">
                     <div className="left">
@@ -24,10 +25,10 @@ export default function Intro() {
 
                     </div>
                     <div className="right">
-                    <h3>Sobre mim</h3>
+                    
                     <p>Sou Henrique Edson Reis, decidi ser nutricionista quando estava na adolescência,
-                    pois a  alimentação mudou a minha vida por completo. <br></br>
-                    Era um jovem sedentário e com sobrepeso. Porém com incentivos comecei a me exercitar e buscar melhorar a minha alimentação. <br></br>
+                    pois a  alimentação mudou a minha vida por completo. 
+                    Era um jovem sedentário e com sobrepeso. Porém com incentivos comecei a me exercitar e buscar melhorar a minha alimentação. 
                     Foi ai que começou o meu amor pela nutrição e se eu conseguir mudar a vida de outras pessoas, para melhor qualidade de vida e saúde mental, meu objetivo estará comprido.</p>
                         <div className="linkToBuy">
                             <a  href="https://pay.hotmart.com/Y67146850A?checkoutMode=0&bid=1646353156041">Compre Aqui !</a>

@@ -1,7 +1,6 @@
 import "./works.scss"
-import Placeholder from "../../assets/placeholder.png";
 import Star from "../../assets/star.png";
-import Secure from "../../assets/Secure.png";
+import Secure from "../../assets/secure.png";
 import Email from "../../assets/email.png";
 import Check from "../../assets/check.png";
 
@@ -28,10 +27,6 @@ export default function Works() {
                 </div>
               </div>
               <div className="column2">
-                <img src={Placeholder}></img>
-                <img src="https://cursodespertemilionario.com/wp-content/uploads/2021/06/Design-sem-nome.png"></img>
-              </div>
-              <div className="column3">
               <div className="card">
                   <a><h2>UMA MANEIRA A MAIS DE PREVENIR A DEPRESSÃO</h2>O tratamento desta doença requer fototerapia, psicoterapia ou medicamentos. Alguns estudos clínicos sugerem que uma alimentação adequada diminui consideravelmente os sintomas da depressão.</a>
                 </div>
@@ -42,21 +37,17 @@ export default function Works() {
                 <a><h2>ENTENDER SOBRE A DEPRESSÃO</h2> A depressão é a doença do Século 21, é a maior razão de inaptidão do mundo, a segunda maior razão de mortes entre pessoas de 15 a 29 anos. ¼ da população mundial vai ter depressão um dia em suas vidas. Tal assunto revela que uma boa alimentação previne e trata os sintomas depressivos.</a>
                 </div>
               </div>
-              <div className="column4">
-                <img src={Placeholder}></img>
-                <img src="https://cursodespertemilionario.com/wp-content/uploads/2021/06/Design-sem-nome.png" className="payment"></img>
-
-              </div>
           </div>
-          
+
       </div>
 
       <div className="bottom">
-        <a><p><img src={Star}     ></img> Privacidade</p>Sua informacao 100% segura</a>
-        <a><p><img src={Secure}   ></img> Compra segura</p>Ambiente seguro e autenticado</a>
-        <a><p><img src={Email}    ></img> Entregue via E-mail</p>Produto entregue por e-mail</a>
-        <a><p><img src={Check}    ></img> Conteudo aprovado</p>100% revisado e aprovado</a>
-
+        <ul>
+          <li><p><img src={Star}></img> Privacidade</p>Sua informacao 100% segura</li>
+          <li><p><img src={Secure}></img> Compra segura</p>Ambiente seguro e autenticado</li>
+          <li><p><img src={Email}></img> Entregue via E-mail</p>Produto entregue por e-mail</li>
+          <li><p><img src={Check}></img> Conteudo aprovado</p>100% revisado e aprovado</li>
+        </ul>
       </div>
 
       </div>

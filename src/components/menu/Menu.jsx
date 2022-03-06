@@ -1,17 +1,18 @@
 import './menu.scss';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 export default function Menu({menuOpen,setMenuOpen}) {
     return (
         <div className={"menu "+(menuOpen && "active")}>
             <ul>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#intro">Página Inicial</a>
+                    <AnchorLink href="#intro">Página Inicial</AnchorLink>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#productdiv">Produto</a>
+                    <AnchorLink href="#productdiv">Produto</AnchorLink>
                 </li>
                 <li onClick={()=>setMenuOpen(false)}>
-                    <a href="#greenParth1">Vantagens</a>
+                    <AnchorLink href="#greenParth1">Vantagens</AnchorLink>
                 </li>
             </ul>
         </div>
