@@ -9,7 +9,7 @@ export default function Product() {
             <div className="productHolder">
                 <div className="productH1classname">
                 <h1 id="productH1">Ainda em duvida sobre como vou conseguir
-                te ajudar? Conheca um pouco mais sobre o produto.
+                te ajudar? Conheça um pouco mais sobre o produto.
                 </h1>
                 <hr></hr>
                 </div>

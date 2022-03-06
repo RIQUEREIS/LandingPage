@@ -15,7 +15,7 @@ export default function Intro() {
             <div class="content">
                 <h1>
                    <span className="bigSpan">CUIDE-SE:</span>O primeiro passo para a <span>liberdade</span> é o <span>conhecimento</span>.<br/>
-                    Portanto, aprenda mais sobre a relacao entre o DEPRESSAO e ALIMENTACAO
+                    Portanto, aprenda mais sobre a relação entre o DEPRESSÃO e ALIMENTAÇÃO
                 </h1>
                 <div className="mainContent">
                     <div className="left">
