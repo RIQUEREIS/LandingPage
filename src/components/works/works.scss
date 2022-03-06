@@ -51,7 +51,7 @@
                         min-height: 0;
                     }
                     @include mobile{
-                        min-height: 300px;
+                        min-height: 350px;
                     }
                     a{
                         font-family: 'Rubik', sans-serif;
@@ -59,7 +59,8 @@
                         width: 80%;
                     }
                     h2{
-                        margin-top: 10px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
                         width: 80%;
                         margin:auto;
                         font-family: 'Rubik', sans-serif;
@@ -99,7 +100,7 @@
                         min-height: 0;
                     }
                     @include mobile{
-                        min-height: 300px;
+                        min-height: 350px;
                     }
                     a{
                         font-family: 'Rubik', sans-serif;
@@ -107,7 +108,8 @@
                         width: 80%;
                     }
                     h2{
-                        margin-top: 10px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
                         width: 80%;
                         margin:auto;
                         font-family: 'Rubik', sans-serif;
