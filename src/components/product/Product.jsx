@@ -8,7 +8,7 @@ export default function Product() {
         <div className="product" id="productdiv">
             <div className="productHolder">
                 <div className="productH1classname">
-                <h1 id="productH1">Ainda em duvida sobre como vou conseguir
+                <h1 id="productH1">Ainda em dúvida sobre como vou conseguir
                 te ajudar? Conheça um pouco mais sobre o produto.
                 </h1>
                 <hr></hr>
