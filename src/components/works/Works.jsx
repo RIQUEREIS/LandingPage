@@ -31,7 +31,7 @@ export default function Works() {
                   <a><h2>UMA MANEIRA A MAIS DE PREVENIR A DEPRESSÃO</h2>O tratamento desta doença requer fototerapia, psicoterapia ou medicamentos. Alguns estudos clínicos sugerem que uma alimentação adequada diminui consideravelmente os sintomas da depressão.</a>
                 </div>
                 <div className="card">
-                <a><h2>CONHECIMENTOS QUE FARÃO RECONSIDERAR DECISÕES COTIDIANAS</h2>Com esta leitura, você mesmo irá repensar atitudes do cotidiano a fim de zelar sua saúde física e mental.</a>
+                <a><h2>SABEDORIA QUE VAI FAZER VOCE RECONSIDERAR DECISÕES COTIDIANAS</h2>Com esta leitura, você mesmo irá repensar atitudes do cotidiano a fim de zelar sua saúde física e mental.</a>
                 </div>
                 <div className="card">
                 <a><h2>ENTENDER SOBRE A DEPRESSÃO</h2> A depressão é a doença do Século 21, é a maior razão de inaptidão do mundo, a segunda maior razão de mortes entre pessoas de 15 a 29 anos. ¼ da população mundial vai ter depressão um dia em suas vidas. Tal assunto revela que uma boa alimentação previne e trata os sintomas depressivos.</a>
