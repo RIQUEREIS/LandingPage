@@ -20,7 +20,7 @@ export default function Intro() {
                 <div className="mainContent">
                     <div className="left">
                     <div class="videoWrapper">
-                    <iframe width="560" height="349" src="https://www.youtube.com/embed/olY6aWVv9xY" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="349" src="https://www.youtube.com/embed/bDs-xWn6fqY" frameborder="0" allowfullscreen></iframe>
                     </div>
 
                     </div>
